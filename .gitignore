@@ -1,0 +1,9 @@
+# goland
+.idea
+*.iml
+
+# logs日志文件
+/logs/
+
+# static静态文件
+/static/

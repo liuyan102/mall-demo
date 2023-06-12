@@ -1,0 +1,38 @@
+server:
+  domain: mall
+  version: 1.0
+  port: 4000
+
+datasource:
+  driverName: mysql
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password: "020491"
+  database: mall_demo
+  charset: utf8mb4
+
+redis:
+  address: 127.0.0.1:6379
+  password: "020491"
+  dbName: 2
+
+rabbitmq:
+  head: amqp
+  address: 127.0.0.1:5672
+  username: guest
+  password: guest
+
+jwt:
+  signKey: mall-demo
+
+path:
+  hostPath: http://127.0.0.1:4000
+  avatarPath: /static/imgs/avatar/
+  productPath: /static/imgs/products/
+
+email:
+  validEmail: https://localhost:4000/#/valid/email/
+  smtpHost: smtp.163.com
+  smtpEmail: liuyan95259@163.com
+  smtpPass: PKSNYKXBMJQDEKDP
