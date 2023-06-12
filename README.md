@@ -1,6 +1,7 @@
 # mall-demo
 采用Golang、gin、gorm、mysql、redis、rabbitmq实现的单机秒杀商城后端demo
 
+<<<<<<< HEAD
 | 文件                     | 说明           |
 |------------------------|--------------|
 | api/v1                 | 接口文件         |
@@ -49,3 +50,5 @@
 >1. 主从数据库
 >2. 搭建redis分布式集群
 >3. 微服务实现
+=======
+>>>>>>> github/master
